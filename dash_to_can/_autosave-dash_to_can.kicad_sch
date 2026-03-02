@@ -7899,22 +7899,22 @@
 	)
 	(global_label "TEMP"
 		(shape input)
-		(at 149.86 154.94 0)
+		(at 149.86 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5e5ea608-b33a-401c-a43e-53bd129e1565")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.6832 154.94 0)
+			(at 142.0368 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8949,6 +8949,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IGN"
+		(shape input)
+		(at 113.03 20.32 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd2295af-8890-4dce-9904-8376f36eb8ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 14.1295 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -15609,72 +15631,6 @@
 			(project ""
 				(path "/700e3b52-0f03-40fd-ae99-83db74362cd5"
 					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 113.03 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe99b114-99ed-4acc-9295-b872f5537237")
-		(property "Reference" "#PWR038"
-			(at 113.03 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 113.03 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 113.03 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f36440d-c0d7-432c-acbf-99716ea30b20")
-		)
-		(instances
-			(project ""
-				(path "/700e3b52-0f03-40fd-ae99-83db74362cd5"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
