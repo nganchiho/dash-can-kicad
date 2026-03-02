@@ -10913,7 +10913,7 @@
 		(property "Reference" "U5"
 			(at 0 5.9 90)
 			(layer "B.SilkS")
-			(uuid "1941efa0-dbac-41fd-b6c2-9cd8b5d60a73")
+			(uuid "bd3113db-e1b5-4a6f-8a71-825c884accd5")
 			(effects
 				(font
 					(size 1 1)
@@ -10925,7 +10925,7 @@
 		(property "Value" "ULN2003A"
 			(at 0 -5.9 90)
 			(layer "B.Fab")
-			(uuid "bc877cb0-ddef-4063-ac7e-f3f2ae95fa5a")
+			(uuid "f4e79c26-2c4f-4d96-b978-08d9e9287a9d")
 			(effects
 				(font
 					(size 1 1)
@@ -10938,7 +10938,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a0edfe65-67fb-4f1f-ae89-47de859a3567")
+			(uuid "8246b78b-1df3-4244-8bbc-19075ffd8c1b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10951,7 +10951,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9b5a569d-67cf-4750-929b-08e6c18e5cba")
+			(uuid "9ef28a07-679f-4236-a099-953bb5a96243")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14289,26 +14289,15 @@
 		)
 	)
 	(gr_rect
-		(start 68.5 27)
-		(end 195.5 154)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "24b2ac43-76ca-4230-98f6-5421d046cf7c")
-	)
-	(gr_rect
-		(start 88.1 58.2)
-		(end 139 109)
+		(start 74.07 27.95)
+		(end 174.07 127.95)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "7edaec70-f565-40df-88ff-cc9331ac4442")
+		(uuid "752af23b-5528-4253-a323-7ea3d188f4f8")
 	)
 	(segment
 		(start 108.734999 92.84)
@@ -19533,29 +19522,6 @@
 		(layer "F.Cu")
 		(net 75)
 		(uuid "d6918769-ad42-4e57-ae94-b28d49aa1781")
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layers "F.Cu" "B.Cu")
-		(uuid "ba15cffd-28ac-4aa0-86ab-0c36c03f4716")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0.5)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 9.999999)
-		)
-		(polygon
-			(pts
-				(xy 138.98 58.22) (xy 138.98 108.98) (xy 88.12 108.98) (xy 88.12 58.22)
-			)
-		)
 	)
 	(embedded_fonts no)
 )
