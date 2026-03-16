@@ -17725,7 +17725,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12V 3A"
+		(property "Value" "12V 1A"
 			(at 166.37 39.3699 0)
 			(effects
 				(font
